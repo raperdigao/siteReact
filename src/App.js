@@ -1,11 +1,13 @@
 
 import './App.css';
+import Contador from './Components/Contador/Contador';
 
 function App() {
   return (
-    <div className="App">
-    
-    </div>
+    // Abrir a tag e importar componente contador
+  <Contador/>
+
+  
   );
 }
 

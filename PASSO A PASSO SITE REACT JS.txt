@@ -3,7 +3,7 @@ Instalar o node.js lts e a extensão no vscode
 . ES7 REACT
 . ES7 +
 . SIMPLE REACT
-. REACT JS CODE
+. REACT JS CODE SNIPPETS
 Abrir o GIT BASH
 Criar o ambiente para desenvolvimento
 Não aceita nomes com letras maiuscula
