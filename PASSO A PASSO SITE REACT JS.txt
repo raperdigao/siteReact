@@ -1,0 +1,13 @@
+Instalar o git bash
+Instalar o node.js lts e a extensão no vscode
+Abrir o GIT BASH
+Criar o ambiente para desenvolvimento
+Não aceita nomes com letras maiuscula
+Criar uma pasta npm no diretoria ROAMING na pasta do usuário
+npm create-react-app reactintroduction
+cd nome do projeto
+git branch -M main - Para ficar na branch main
+code . - Abrir o visual studio code
+
+setupTests.js = Setup do site
+npm start para inciar o projeto
