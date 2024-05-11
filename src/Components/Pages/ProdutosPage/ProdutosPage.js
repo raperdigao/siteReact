@@ -1,5 +1,6 @@
 import React from 'react';
 import { produtos } from '../../../Utils/Produtos';
+import './ProdutosPage.css'
 
 
 const ProdutosPage = () => {
@@ -11,7 +12,7 @@ const ProdutosPage = () => {
             {produtos.map((produtoss) => {
                 return (
                     <>
-                    <div>
+                    <div className='produtos-flex'>
 
                         <p>Id: {produtoss.idProduto}</p>
                         <p>Descrição: {produtoss.descricao}</p>
