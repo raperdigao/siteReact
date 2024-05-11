@@ -1,5 +1,9 @@
 Instalar o git bash
 Instalar o node.js lts e a extensão no vscode
+. ES7 REACT
+. ES7 +
+. SIMPLE REACT
+. REACT JS CODE
 Abrir o GIT BASH
 Criar o ambiente para desenvolvimento
 Não aceita nomes com letras maiuscula
@@ -10,4 +14,8 @@ git branch -M main - Para ficar na branch main
 code . - Abrir o visual studio code
 
 setupTests.js = Setup do site
+EXTENSÃO rsc para importar componentes
+instalar extensão 
+
+Depois utilizar o codigo rsc igual ao ! que chama a estrutura do HTML
 npm start para inciar o projeto
