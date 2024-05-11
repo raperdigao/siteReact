@@ -1,13 +1,13 @@
 import React from 'react';
 
-const ProdutosPage = () => {
+const HomePage = () => {
     return (
         <div>
             <h1>
-                Essa é a página de produtos!!!
+                Home Page
             </h1>
         </div>
     );
 };
 
-export default ProdutosPage;
+export default HomePage;

@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 const Nav = () => {
     return (
       <nav>
-       <link to={"/"}>Home</link>
-       <link to={"ProdutosPage"}>Página de Produtos</link>
+       <Link to={"/"}>Home</Link>
+       <Link to={"ProdutosPage"}>Página de Produtos</Link>
       </nav>
     );
 };
