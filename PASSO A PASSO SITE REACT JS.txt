@@ -19,3 +19,7 @@ instalar extensão
 
 Depois utilizar o codigo rsc igual ao ! que chama a estrutura do HTML
 npm start para inciar o projeto
+
+INSTALAR REACT ROUTER DOM
+npm i react-router-dom
+npm start
