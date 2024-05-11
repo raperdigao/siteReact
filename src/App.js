@@ -8,10 +8,8 @@ function App() {
     // Abrir a tag e importar componente contador
 
     // <> Tag anônima precisa de um Pai para envolver os componentes
-    <>
-      <Contador />
-
-    </>
+   
+      <Rotas />
 
 
   );

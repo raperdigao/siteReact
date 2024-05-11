@@ -6,11 +6,14 @@ const Rotas = () => {
         // Resposnavel para buscar rotas dentro do React
      <BrowserRouter>
      
-     <Nav/>
+     <Nav />
 
      <Routes>
         <Route element={<ProdutosPage />} path={"/ProdutosPage"} />
      </Routes>
+
      </BrowserRouter>
     );
-}
+};
+
+export default Rotas;
