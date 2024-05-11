@@ -1,0 +1,43 @@
+.allCards {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.card {
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.card_text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.card_info {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    /* O overflow cria um scrool barra de rolagem */
+    overflow-y: scroll;
+    width: 210px;
+    height: 118px;
+    padding-right: 10px;
+}
+
+/* Cria a barra de rolagem ao lado do card */
+.card_info::-webkit-scrollbar-thumb {
+    background-color: #333;
+}
+
+/* Cria a barra de rolagem ao lado do card */
+.card_info::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+    background-color: gray;
+}
