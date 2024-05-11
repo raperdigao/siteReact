@@ -1,6 +1,9 @@
+
+
 .allCards {
     display: flex;
     justify-content: space-evenly;
+    border: 2px solid yellow;
 
 }
 
@@ -8,15 +11,18 @@
     height: 250px;
     width: 250px;
     border-radius: 5px;
+    border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: 10px;
+    text-align: center;
 }
 
 .card_text {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    text-align: center;
 }
 
 .card_info {
@@ -28,6 +34,7 @@
     width: 210px;
     height: 118px;
     padding-right: 10px;
+    text-align: center;
 }
 
 /* Cria a barra de rolagem ao lado do card */
@@ -40,4 +47,12 @@
     width: 5px;
     height: 10px;
     background-color: gray;
+}
+
+.card_button {
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    color: #b51d44;
+    cursor: pointer;
 }

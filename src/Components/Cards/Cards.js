@@ -1,21 +1,31 @@
 import React from 'react';
-import './Cards.css'
+import './cards.css'
 
-const Cards = () => {
+const Cards = ({
+    tituloCard,
+    paragrafoCard,
+    buttonCard
+}
+
+) => {
     return (
-        <div className='allCards'>
-            <div className='card'>
-                <h1 className='card_text'>
+       
+            <div className='allCards'>
+                <div className='card'>
+                    <h1 className='card_text'>
+                        {tituloCard}
+                    </h1>
+                    <p className='card_info'>
+                        {paragrafoCard}
 
-                </h1>
-                <p className='card_info'>
-
-                </p>
-                <button className='card_button'>
-
-                </button>
+                    </p>
+                    <button className='card_button'>
+                        {buttonCard}
+                    </button>
+                </div>
             </div>
-        </div>
+
+        
     );
 };
 
